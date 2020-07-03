@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "./scss/color.scss";
+@import "./scss/dimens.scss";
+@import "./scss/typography.scss";
+
+#Hyperion-Git--root {
+  h1 {
+    color: $danger;
+  }
+}
