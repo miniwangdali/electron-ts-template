@@ -87,3 +87,9 @@ $head--xlarge--slim: (
   line-height: 2.25rem,
   letter-spacing: 0px,
 );
+
+@mixin type-style($name) {
+  @each $key, $value in $name {
+    #{$key}: $value;
+  }
+}

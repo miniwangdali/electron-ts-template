@@ -16,5 +16,5 @@ export const Hello = (props: HelloProps) => (
 
 ReactDOM.render(
   <Hello compiler="TypeScript" framework="React" />,
-  document.getElementById("Hyperion-Git--root")
+  document.getElementById("app--root")
 );
